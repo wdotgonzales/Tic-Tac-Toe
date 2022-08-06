@@ -1,0 +1,100 @@
+* , *::before , *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+    font-size: 28px;
+
+    background-color: rgb(72, 143, 162);
+}
+
+.playerTurnStatus{
+    text-align: center;
+
+    margin-block: 1em;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 45px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns:repeat(3,150px);
+    gap: 2px;
+
+    border: 2px solid black;
+    background-color: black;
+
+}
+
+.box{
+    background-color: white;
+    height: 150px;
+}
+
+.box:hover{
+    background-color: rgb(208, 203, 203);
+}
+
+.restart-button-container{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2em;
+
+}
+
+#restart{
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-color: rgb(72, 143, 162);
+    border: 2px solid rgb(72, 143, 162);
+
+    font-size: 35px;
+    width: 120px;
+    padding-block: 11px;
+
+    border-radius: 12px;
+}
+
+#restart:hover{
+    color: white;
+}
+
+.copyright-container a{
+    text-decoration: none;
+    color: black;
+}
+.copyright-container{
+    text-align: center;
+    font-family: 'Bellota Text', cursive;
+
+    margin-block: 2em;
+
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.copyright-container img{
+    width: 25px;
+}
+
+
+.box-font{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Carter One', cursive;
+
+    font-size: 102px;
+}
