@@ -60,69 +60,69 @@ const gameboard = (function(){
 
     const declareWinnerOrDraw = function(){
         if(box1.textContent == 'X' && box2.textContent == 'X' && box3.textContent == 'X'){
-            playerTurnStatus.textContent = 'Player 1 Won the Game!';
+            playerTurnStatus.textContent = 'Player X Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box1.textContent == 'O' && box2.textContent == 'O' && box3.textContent == 'O'){
-            playerTurnStatus.textContent = 'Player 2 Won the Game!';
+            playerTurnStatus.textContent = 'Player O Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box4.textContent == 'X' && box5.textContent == 'X' && box6.textContent == 'X'){
-            playerTurnStatus.textContent = 'Player 1 Won the Game!';
+            playerTurnStatus.textContent = 'Player X Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box4.textContent == 'O' && box5.textContent == 'O' && box6.textContent == 'O'){
-            playerTurnStatus.textContent = 'Player 2 Won the Game!';
+            playerTurnStatus.textContent = 'Player O Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box7.textContent == 'X' && box8.textContent == 'X' && box9.textContent == 'X'){
-            playerTurnStatus.textContent = 'Player 1 Won the Game!';
+            playerTurnStatus.textContent = 'Player X Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box7.textContent == 'O' && box8.textContent == 'O' && box9.textContent == 'O'){
-            playerTurnStatus.textContent = 'Player 2 Won the Game!';
+            playerTurnStatus.textContent = 'Player O Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
 
         } else if(box1.textContent == 'X' && box4.textContent == 'X' && box7.textContent == 'X'){
-            playerTurnStatus.textContent = 'Player 1 Won the Game!';
+            playerTurnStatus.textContent = 'Player X Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box1.textContent == 'O' && box4.textContent == 'O' && box7.textContent == 'O'){
-            playerTurnStatus.textContent = 'Player 2 Won the Game!';
+            playerTurnStatus.textContent = 'Player O Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box2.textContent == 'X' && box5.textContent == 'X' && box8.textContent == 'X'){
-            playerTurnStatus.textContent = 'Player 1 Won the Game!';
+            playerTurnStatus.textContent = 'Player X Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box2.textContent == 'O' && box5.textContent == 'O' && box8.textContent == 'O'){
-            playerTurnStatus.textContent = 'Player 2 Won the Game!';
+            playerTurnStatus.textContent = 'Player O Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box3.textContent == 'X' && box6.textContent == 'X' && box9.textContent == 'X'){
-            playerTurnStatus.textContent = 'Player 1 Won the Game!';
+            playerTurnStatus.textContent = 'Player X Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box3.textContent == 'O' && box6.textContent == 'O' && box9.textContent == 'O'){
-            playerTurnStatus.textContent = 'Player 2 Won the Game!';
+            playerTurnStatus.textContent = 'Player O Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
 
         } else if(box1.textContent == 'X' && box5.textContent == 'X' && box9.textContent == 'X'){
-            playerTurnStatus.textContent = 'Player 1 Won the Game!';
+            playerTurnStatus.textContent = 'Player X Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box1.textContent == 'O' && box5.textContent == 'O' && box9.textContent == 'O'){
-            playerTurnStatus.textContent = 'Player 2 Won the Game!';
+            playerTurnStatus.textContent = 'Player O Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box3.textContent == 'X' && box5.textContent == 'X' && box7.textContent == 'X'){
-            playerTurnStatus.textContent = 'Player 1 Won the Game!';
+            playerTurnStatus.textContent = 'Player X Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
         } else if(box3.textContent == 'O' && box5.textContent == 'O' && box7.textContent == 'O'){
-            playerTurnStatus.textContent = 'Player 2 Won the Game!';
+            playerTurnStatus.textContent = 'Player O Won the Game!';
             board = [];
             storageBoard = ['X','O','X','O','X','O','X','O','X'];
 
